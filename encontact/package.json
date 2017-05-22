@@ -1,0 +1,24 @@
+{
+  "name": "encontact",
+  "version": "0.0.1",
+  "description": "Operador enContact",
+  "main": "index.js",
+  "author": "Reinaldo Coelho Sartorelli",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.encontact.com.br/agent",
+    "serviceName": "Operador enContact",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasedirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {},
+    "openDevTools": false,
+    "wording": {
+        "url": "encontact.com.br",
+        "team": "Gerenciador de e-mails enContact"
+    }
+  }
+}
